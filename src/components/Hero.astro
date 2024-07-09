@@ -1,0 +1,283 @@
+<!-- ============================================ -->
+<!--                     Hero                     -->
+<!-- ============================================ -->
+
+<section id="hero-1946">
+    <div class="cs-container">
+        <div class="cs-content">
+            <h2 class="cs-title">An AI security solution for your business</h2>
+            <div class="cs-flex">
+                <p class="cs-text">At AI Solve, we bring you the latest AI-based security and survellience techology that helps keep your buisness safe and brings you peace of mind.</p>
+                <a href="" class="cs-button-solid">Read More</a>
+            </div>
+        </div>
+        <picture class="cs-picture">
+            <source media="(min-width: 601px)" srcset="src/assets/images/hero-img.jpg">
+            <source media="(max-width: 600px)" srcset="src/assets/images/hero-img.jpg">
+            <img decoding="async" src="src/assets/images/hero-img.jpg" alt="at work in office" width="1280" height="510">
+        </picture>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <picture class="cs-icon-picture">
+                    <img class="cs-icon" src="src/assets/images/headset_mic_48dp_FILL0_wght400_GRAD0_opsz48.png" decoding="async" alt="icon" width="40" height="40" aria-hidden="true">
+                </picture>
+                <!-- Text Grouped For Flexbox-->
+                <div class="cs-text-group">
+                    <h3 class="cs-h3">3CX Reseller Experts</h3>
+                    <p class="cs-item-text">High proficiency in delivering cutting-edge 3CX solutions.</p>
+                </div>
+            </li>
+            <li class="cs-item">
+                <picture class="cs-icon-picture">
+                    <img class="cs-icon" src="src/assets/images/devices_48dp_FILL0_wght400_GRAD0_opsz48.png" decoding="async" alt="icon" width="40" height="40" aria-hidden="true">
+                </picture>
+                <!-- Text Grouped For Flexbox-->
+                <div class="cs-text-group">
+                    <h3 class="cs-h3">Custom Twilio and Jambonz Solutions</h3>
+                    <p class="cs-item-text">Personal and seamless integrations that align perfectly with your systems.</p>
+                </div>
+            </li>
+            <li class="cs-item">
+                <picture class="cs-icon-picture">
+                    <img class="cs-icon" src="src/assets/images/code_48dp_FILL0_wght400_GRAD0_opsz48.png" decoding="async" alt="icon" width="40" height="40" aria-hidden="true">
+                </picture>
+                <!-- Text Grouped For Flexbox-->
+                <div class="cs-text-group">
+                    <h3 class="cs-h3">Software Development Excellence</h3>
+                    <p class="cs-item-text">We specialize in developing for major cloud platforms such as Azure, Google, AWS, and IBM.</p>
+                </div>
+            </li>
+            <li class="cs-item">
+                <picture class="cs-icon-picture">
+                    <img class="cs-icon" src="src/assets/images/manufacturing_48dp_FILL0_wght400_GRAD0_opsz48.png" decoding="async" alt="icon" width="40" height="40" aria-hidden="true">
+                </picture>
+                <!-- Text Grouped For Flexbox-->
+                <div class="cs-text-group">
+                    <h3 class="cs-h3">Agile Scrum Methodology</h3>
+                    <p class="cs-item-text">Ensuring the highest quality solutions for our customers.</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<style>
+    /*-- -------------------------- -->
+<---            Hero            -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  #hero-1946 {
+    padding: var(--sectionPadding);
+    /* 160px - 200px */
+    padding-top: clamp(6rem, 16vw, 9.5rem);
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+  }
+  #hero-1946 .cs-container {
+    width: 100%;
+    max-width: 80rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+  }
+  #hero-1946 .cs-content {
+    /* set text align to left if content needs to be left aligned */
+    text-align: center;
+    width: 100%;
+    max-width: 80rem;
+    /* 40px - 52px */
+    margin-bottom: clamp(2.5rem, 5vw, 3.25rem);
+    display: flex;
+    flex-direction: column;
+    /* centers content horizontally, set to flex-start to left align */
+    align-items: center;
+    position: relative;
+    z-index: 1;
+  }
+  #hero-1946 .cs-flex {
+    /* prevents flexbox from squishing it */
+    flex: none;
+    width: 80%;
+  }
+  }
+  #hero-1946 .cs-title {
+    /* 39px - 61px */
+    font-size: clamp(2.438rem, 5vw, 3.813rem);
+    max-width: 40rem;
+    
+  }
+  #hero-1946 .cs-text {
+    margin-bottom: 1.25rem;
+  }
+  #hero-1946 .cs-button-solid {
+    font-size: 1rem;
+    font-weight: 700;
+    /* 46px - 56px */
+    line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+    text-align: center;
+    text-decoration: none;
+    min-width: 8rem;
+    margin: 0;
+    /* prevents padding from adding to the width */
+    box-sizing: border-box;
+    border-radius: 0.5rem;
+    /* 32px - 48px */
+    padding: 0 clamp(2rem, 4vw, 3rem);
+    background-color: var(--primary);
+    color: var(--bodyTextColorWhite);
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    transition: color 0.3s;
+    transition: background-color 0.3s;
+    
+  }
+  #hero-1946 .cs-button-solid:hover {
+    background-color: #000;
+    color: #fff;
+  }
+  #hero-1946 .cs-picture {
+    width: 100%;
+    /* 280px - 510px */
+    height: clamp(1.5rem, 58.6vw, 31.875rem);
+    /* 16px - 20px */
+    margin-bottom: clamp(1rem, 2vw, 1.25rem);
+    display: block;
+    position: relative;
+  }
+  #hero-1946 .cs-picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 2.5rem;
+    position: absolute;
+  }
+  #hero-1946 .cs-card-group {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(12, 1fr);
+    /* 16px - 20px */
+    gap: clamp(1rem, 2vw, 1.25rem);
+  }
+  #hero-1946 .cs-item {
+    text-align: center;
+    list-style: none;
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    /* 24px - 32px */
+    padding: clamp(1.5rem, 3vw, 2rem);
+    background-color: #F7F7F7;
+    border-radius: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-column: span 12;
+    position: relative;
+    z-index: 1;
+    transition: border-color 0.3s;
+  }
+  #hero-1946 .cs-item:hover {
+    border-color: var(--primary);
+  }
+  #hero-1946 .cs-item:hover .cs-h3 {
+    color: var(--primary);
+  }
+  #hero-1946 .cs-item:hover .cs-icon {
+    transform: rotateY(360deg);
+  }
+  #hero-1946 .cs-icon-picture {
+    margin-bottom: 1.25rem;
+    perspective: 700px;
+    transform-style: preserve-3d;
+  }
+  #hero-1946 .cs-icon {
+    width: 2.5rem;
+    height: auto;
+    display: block;
+    transition: transform 0.3s;
+  }
+  #hero-1946 .cs-h3 {
+    font-size: 1.25rem;
+    line-height: 1.5em;
+    text-align: inherit;
+    margin: 0;
+    margin-bottom: 0.75rem;
+    color: var(--headerColor);
+    transition: color 0.3s;
+  }
+  #hero-1946 .cs-item-text {
+    /* 14px - 16px */
+    font-size: clamp(0.875rem, 1.5vw, 1rem);
+    line-height: 1.5em;
+    text-align: inherit;
+    margin: 0;
+    color: var(--bodyTextColor);
+}
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+  #hero-1946 .cs-text {
+    font-size: 1.25rem;
+  }
+  #hero-1946 .cs-item {
+    text-align: left;
+    margin: 0;
+    align-items: flex-start;
+    grid-column: span 6;
+  }
+  #hero-1946 .cs-flex {
+    width: 70%;
+    max-width: 39.375rem;
+  }
+  #hero-1946 .cs-title{
+    max-width: 40rem;
+  }
+}
+/* Small Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+  #hero-1946 .cs-content {
+    display: flex;
+    flex-direction: column;
+  }
+  #hero-1946 .cs-title {
+    max-width: 45rem;
+  }
+  #hero-1946 .cs-item {
+    grid-column: span 3;
+  }
+  #hero-1946 .cs-flex {
+    width: 80%;
+    max-width: 39.375rem;
+  }
+}
+/* Large Desktop 1300px */
+@media only screen and (min-width: 81.25rem) {
+  #hero-1946 .cs-title {
+    width: 45rem;
+  }
+  #hero-1946 .cs-container {
+    flex-direction: column;
+  }
+  #hero-1946 .cs-content {
+    text-align: center;
+    max-width: 80rem;
+    gap: 1.25rem;
+    flex-direction: center;
+    align-items: center;
+  }
+  #hero-1946 .cs-flex {
+    width: 50%;
+    max-width: 39.375rem;
+  }
+}
+                                
+</style>
