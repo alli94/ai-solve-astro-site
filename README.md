@@ -1,9 +1,9 @@
-# First Draft for RD Partners Test Site
-I'm currently working on the landing page for our new RD Partners site. I have a basic structure layed out with some styling. 
-There is nothing too complex and none of the links work yet, just trying to get a feel for the layout and structure by building 
-from scratch. Below is some basic information about Astro and how to run the project. :)
+# First Draft for AI SOLVE Site
+These are the most updated site changes for AI SOLVE as of 07/09/2024. The next steps will be to build out new components for the site.
+I've created a new repo with these files here which will soon be moved to the RD Partners repo for ease of collaborative work.
 
-## 🚀 Project Structure
+
+## Project Structure
 
 Inside of your Astro project, you'll see the following folders and files:
 
@@ -22,7 +22,7 @@ There's nothing special about `src/components/`, but that's where we like to put
 
 Any static assets, like images, can be placed in the `public/` directory.
 
-## 🧞 Commands
+## Commands
 
 All commands are run from the root of the project, from a terminal:
 
@@ -35,6 +35,3 @@ All commands are run from the root of the project, from a terminal:
 | `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
 | `npm run astro -- --help` | Get help using the Astro CLI                     |
 
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
